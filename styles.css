@@ -1,34 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-}
-header, footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-main {
-    padding: 20px;
-}
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #45a049;
-}
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('imagenes/fondototal.jpeg'); /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
 }
 
 .container {
@@ -36,15 +15,15 @@ body {
     margin: 0 auto;
 }
 
-header {
+header, footer {
     background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 10px 0;
 }
 
 header h1 {
     margin: 0;
-    text-align: center;
 }
 
 nav ul {
@@ -68,11 +47,8 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+main {
+    padding: 20px;
 }
 
 /* Slider Styles */
@@ -183,3 +159,5 @@ button.next {
     border: 5px solid #ddd;
     border-radius: 5px;
 }
+
+
